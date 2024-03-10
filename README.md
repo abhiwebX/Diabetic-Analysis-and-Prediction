@@ -16,3 +16,13 @@ pip install tkinter
 
 
 **Run  Diabetic Analysis and Prediction.py**
+
+
+.....................................................................xxx......................................................................................
+**Screenshots**
+
+
+![Result Diabetic SS](Screenshots/Diabetic.png)
+
+
+![Result Non-Diabetic SS](Screenshots/Non-Diabetic.png)
