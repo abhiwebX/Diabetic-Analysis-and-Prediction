@@ -15,3 +15,4 @@ pip install sklearn
 pip install tkinter
 
 
+**Run  Diabetic Analysis and Prediction.py**
