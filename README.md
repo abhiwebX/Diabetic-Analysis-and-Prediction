@@ -19,10 +19,14 @@ pip install tkinter
 
 
 .....................................................................xxx......................................................................................
+
+
 **Screenshots**
 
+Result Diabetic SS
 
 ![Result Diabetic SS](Screenshots/Diabetic.png)
 
+Result Non-Diabetic SS
 
 ![Result Non-Diabetic SS](Screenshots/Non-Diabetic.png)
