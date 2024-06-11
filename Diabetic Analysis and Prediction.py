@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import tkinter as tk
+import webbrowser
 from tkinter import messagebox
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
@@ -103,9 +104,20 @@ for i, label_text in enumerate(label_texts):
     label.grid(row=i, column=0, padx=10, pady=10, sticky='e')
     labels.append(label)
 
+
+# function to link website to btn
+def openlink():
+    webbrowser.open('https://abhiwebx.github.io/myDocApp_done/')
+    
+
 # Create predict button
 predict_button = tk.Button(root, text="Predict", command=predict_diabetes , bg="green", fg="white", bd=5, padx=20, pady=5, relief=tk.RAISED, font=('Arial', 12)).grid(row=8, column=0, columnspan=2, pady=10)
 #predict_button.grid(row=8, column=0, columnspan=2, pady=10)
+
+#btn linked to website  makesure command - openlink and row = 3
+predict_button = tk.Button(root, text="Appointment", command=openlink , bg="black", fg="white", bd=5, padx=20, pady=5, relief=tk.RAISED, font=('italic', 12)).grid(row=9, column=0, columnspan=2, pady=10)
+
+
 
 # Create frame to display user entered values and prediction
 frame = tk.Frame(root, width=500, height=600)
